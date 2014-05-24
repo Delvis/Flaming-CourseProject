@@ -9,7 +9,15 @@ In this repo you will find 3 files:
 * CODEBOOK.md
 * run_analysis.R
 
+## Steps:
 
+* Download this file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* Write in your R console: getwd()
+* Unzip the previously downloaded file into that folder
+* Download run_analysis.R from this repo and put it into the same folder of the unzipped file
+* Write in your R console: source("run_analysis.R")
+* Write in your R console: whatever = read.table("super_tidy_data.txt")
+* Write in your R console: View(whatever)
 
 ## Sources used:
 

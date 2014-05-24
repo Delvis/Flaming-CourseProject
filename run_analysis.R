@@ -7,7 +7,7 @@
 ## 5. Creates a second, independent tidy data set with the average of each
 ## variable for each activity and each subject.
 
-## 0. Load the data into R
+## 0. Load the data into R, don't forget to previously setwd() to your unziped folder
 
 S_train = read.table("train/subject_train.txt")
 S_test = read.table("test/subject_test.txt")

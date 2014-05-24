@@ -70,6 +70,6 @@ for (s in 1:numS) {
         }
 }
 
-## Finally, create the new .text with 180 observations of 68 variables
+## Finally, create the new .txt with 180 observations of 68 variables
 
 write.table(result, "super_tidy_data.txt")

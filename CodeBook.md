@@ -6,7 +6,7 @@
 
 In this repo you will find the `run_analysis.R` script. This R script performs the following transformations on the original data:
 
-## Merges the training and the test sets to create one data set.
+#### Merges the training and the test sets to create one data set.
 
 The script here merges date from some files:
 
@@ -17,10 +17,24 @@ The script here merges date from some files:
 * `train/y_train.txt` + `test/y_test.txt`
   - a 10299x1 data frame with activity IDs
 
-## Extracts only the measurements on the mean and standard deviation for each measurement.
+#### Extracts only the measurements on the mean and standard deviation for each measurement.
 
-## Uses descriptive activity names to name the activities in the data set
+From the 561 attributes only 66 were evaluated as being mean and standard deviations. Therefore we obtain from here a 10299x66 data frame.
 
-## Appropriately labels the data set with descriptive activity names. 
+#### Uses descriptive activity names to name the activities in the data set
 
-## Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+Here we attribute the activity names, from the `activitylabels.txt` to our data set:
+* laying
+* sitting
+* standing
+* walking
+* walkingdownstairs
+* walkingupstairs
+
+#### Appropriately labels the data set with descriptive activity names. 
+
+As it is convenient in tidy data, we remove all the illegal characters of the labels.
+
+#### Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+Finally we create the final tidy 180*68 data frame, `super_tidy_data.txt`.

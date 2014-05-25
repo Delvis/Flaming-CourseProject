@@ -38,3 +38,11 @@ As it is convenient in tidy data, we remove all the illegal characters of the la
 #### Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 Finally we create the final tidy 180*68 data frame, `super_tidy_data.txt`.
+
+## Sources used:
+
+Anguita D., Ghio A., Oneto L., Parra X., Reyes-Ortiz J. 2012. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain.
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones

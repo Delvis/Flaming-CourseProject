@@ -8,6 +8,15 @@ In this repo you will find the `run_analysis.R` script. This R script performs t
 
 ## Merges the training and the test sets to create one data set.
 
+The script here merges date from some files:
+
+* `train/subject_train.txt` + `test/subject_test.txt`
+  - a 10299x1 data frame with subject IDs
+* `train/X_train.txt` + `test/X_test.txt`
+  - the main 10299x561 data frame
+* `train/y_train.txt` + `test/y_test.txt`
+  - a 10299x1 data frame with activity IDs
+
 ## Extracts only the measurements on the mean and standard deviation for each measurement.
 
 ## Uses descriptive activity names to name the activities in the data set
